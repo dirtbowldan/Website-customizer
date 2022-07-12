@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
 }
 
 .App-link {
@@ -32,7 +32,65 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.slidercont {
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.sliderlabel {
+
+  font-size: .5em;
+  flex: 2;
+  
+  margin-right: 1em;
+}
+
+.slide{
+  
+  width: 100px;
+  margin-right: 5px;
+}
+
+.slideinput{
+  
+  padding: 3px;
+  color: white;
+  border-color: white;
+  font-size: .75em;
+  width: 10px;
+  
+}
+
+.input1{
+  width: 40px;
+}
+
+.MuiGrid-item {
+  padding: 2px 2px 2px 2px !important;
+}
+
+.MuiSlider-thumb:hover {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  width: .75em!important;
+  height: .75em !important;
+  transition: .1s ease-in-out;
+
+}
+
+.MuiSlider-thumb{
+  transition: .1s ease!important;
+}
+
+.Mui-focusVisible {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
